@@ -1,5 +1,5 @@
-# WebService
-A Node.js web application with Docker implementation. 
+# Address Book
+A Node.js web application with Docker implementation for the web services course. 
 # How does it work?
 after cloning the repository, run "$ docker-compose up"
 # Features
