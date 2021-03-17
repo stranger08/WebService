@@ -1,5 +1,5 @@
 # WebService
-A dockerized Node.js web application
+A Node.js web application with Docker implementation. 
 # How does it work?
 after cloning the repository, run "$ docker-compose up"
 # Features
