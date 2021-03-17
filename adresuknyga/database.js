@@ -23,7 +23,7 @@ const Person = sequelize.define('Person', {
     },
 	placeOfWork: {
 		type: Sequelize.STRING,
-		allowNull: false
+		allowNull: true
 	},
 });
 module.exports = {
