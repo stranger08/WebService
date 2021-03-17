@@ -9,7 +9,7 @@ test('create person', async () => {
     const person = await db.Person.create({
         id: 1,
         firstName: 'Bobbie',
-        lastName: 'Draper'
+        lastName: 'Draper',
 		placeOfWork: 'Mcdonalds'
     });
     expect(person.id).toEqual(1);

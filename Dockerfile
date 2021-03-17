@@ -3,8 +3,8 @@
 FROM node:12.13.0-alpine
 RUN mkdir -p /opt/app
 WORKDIR /opt/app
-RUN useradd app
-COPY addressbook/ .
+RUN adduser --disabled-password --gecos '' app
+COPY adresuknyga/ .
 RUN npm install
 RUN chown -R app:app /opt/app
 USER app
