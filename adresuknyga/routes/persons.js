@@ -28,6 +28,7 @@ router.put("/", function(req, res) {
     db.Person.create({
         firstName: req.body.firstName,
         lastName: req.body.lastName,
+        placeOfWork: req.body.placeOfWork,
         id: req.body.id
         })
         .then( person => {
